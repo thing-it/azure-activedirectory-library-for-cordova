@@ -1,6 +1,6 @@
 {
   "name": "@thing-it/cordova-plugin-ms-adal",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client.",
   "cordova": {
     "id": "@thing-it/cordova-plugin-ms-adal",
