@@ -61,5 +61,12 @@
   "bugs": {
     "url": "https://github.com/thing-it/azure-activedirectory-library-for-cordova/issues"
   },
-  "homepage": "https://github.com/thing-it/azure-activedirectory-library-for-cordova#readme"
+  "homepage": "https://github.com/thing-it/azure-activedirectory-library-for-cordova#readme",
+  "scripts": {
+    "version": "PLUGIN_VERSION=$npm_package_version node plugin-version && git add plugin.xml",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "devDependencies": {
+    "cordova-common": "^3.2.1"
+  }
 }
